@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dh4bnrl3yxk0v"]
+
+[ext_resource type="Texture2D" uid="uid://6qokobv4yhax" path="res://icon.svg" id="1_3hls8"]
+[ext_resource type="Script" uid="uid://bl4150me7wsdy" path="res://my_sprite.gd" id="2_hbghi"]
+
+[node name="Level1" type="Node2D" unique_id=747966606]
+
+[node name="MySprite" type="Sprite2D" parent="." unique_id=1868786582]
+position = Vector2(640, 360)
+rotation = 3.1415927
+scale = Vector2(2, 2)
+texture = ExtResource("1_3hls8")
+script = ExtResource("2_hbghi")
